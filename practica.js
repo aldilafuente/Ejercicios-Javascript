@@ -336,17 +336,63 @@
 
 
 //EJERCICIO 70
+// var a = 0;
+// var b = 1;
+// while (b <= 1000) {
+//     console.log('A:', a, 'MÁS B:', b, 'DA COMO RESULTADO...', a+b);
+//     a = a+b;
+//     b += 2;
+// }
 
 
+//EJERCICIO 71
+// var multiplicador = 1;
+// while (multiplicador <= 10) {
+//     var resultado = 9 * multiplicador;
+//     console.log('9 multiplicado por', multiplicador, 'da como resultado:', resultado);
+//     multiplicador++;
+// }
 
 
+//EJERCICIO 72
+// var star = '*';
+// while (star.length <= 15) {
+//     console.log(star);
+//     star += '*';
+// }
 
 
+//EJERCICIO 73
+// var contador = 15;
+// var recorte = '';
+// var star = '***************';
+
+// while (contador > 0) {
+//     recorte = star.slice(0, contador);
+//     console.log(recorte);
+//     contador--;
+// }
 
 
+//EJERCICIO 74
+// var star = '*';
+// while (star.length <= 15) {
+//     console.log(star);
+//     star += '**';
+// }
 
 
+//EJERCICIO 75
+// var a = 0;
+// var b = 1;
+// // var c = a+b;
 
+// while (a < 10) {
+//     a + b;
+//     a = b;
+//     console.log(a+b);
+//     b += 1;
+// }
 
 
 
@@ -422,14 +468,14 @@
 
 // while (numeroDos >= 0) {
 
-    // while (numero >= 0) {
-    //     f = f + '*';
-    //     numero--;
-    // }
-    // console.log(f);
+//     while (numero >= 0) {
+//         f = f + '*';
+//         numero--;
+//     }
+//     console.log(f);
     
 //     numero = numeroDos;
-    // numero--;
+//     numero--;
 // }
 
 
