@@ -382,23 +382,21 @@
 // }
 
 
-//EJERCICIO 75
-// var a = 0;
-// var b = 1;
-// // var c = a+b;
+//EJERCICIO 75 - te odio fibonacci
+var fibo = 0;
+var a = 0;
+var b = 1;
+var vuelta = 0;
 
-// while (a < 10) {
-//     a + b;
-//     a = b;
-//     console.log(a+b);
-//     b += 1;
-// }
-
-
-
-
-
-
+console.log(a);
+console.log(b);
+while (vuelta < 8) {
+    fibo = a + b;
+    console.log(fibo);
+    a = b;
+    b = fibo;
+    vuelta++;
+}
 
 
 
@@ -427,7 +425,14 @@
 
 
 
-//------------------------ pausa ------------------------
+
+
+
+
+
+
+
+//------------------------ pausa para repasar en clase ------------------------
 
 //EJERCICIO 69
 // a = a + b
