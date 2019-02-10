@@ -1,4 +1,4 @@
-//EJERCICIOS SON STRINGS Y NÚMEROS
+//EJERCICIOS CON STRINGS Y NÚMEROS
 
 //EJERCICIO 39
 // var name, surname;
@@ -34,12 +34,15 @@
 
 
 
-//ESTRUCTURAS DE CONTROL
 
+
+
+
+
+//ESTRUCTURAS DE CONTROL
 //EJERCICIO 49
 // var number1 = 10;
 // var number2 = 5;
-
 // if (number1 > number2) {
 //     console.log('La variable NUMBER1 (10) es mayor que la variable NUMBER2 (5)');
 // }
@@ -47,7 +50,6 @@
 
 //EJERCICIO 50
 // var number = 10;
-
 // if (number % 2 == 0) {
 //     console.log('El número 10 es par');
 // }
@@ -56,7 +58,6 @@
 //EJERCICIO 51
 // var user = 'hannaldi';
 // var password = 'ahrecontraseña';
-
 // if (user==='hannaldi' && password ==='ahrecontraseña') {
 //     console.log('El usuario y contraseña son correctos');
 // }
@@ -65,7 +66,6 @@
 //EJERCICIO 52
 // var number1 = 10;
 // var number2 = 15;
-
 // if (number1 > number2) {
 //     console.log('La variable NUMBER1 es mayor que la variable NUMBER2');
 // } else {
@@ -75,7 +75,6 @@
 
 //EJERCICIO 53
 // var number = 13;
-
 // if (number % 2 == 0) {
 //     console.log('El número es par');
 // } else {
@@ -86,7 +85,6 @@
 //EJERCICIO 54
 // var user = 'hannaldi';
 // var password = 'ahrecontrasenia';
-
 // if (user==='hannaldi' && password ==='ahrecontraseña') {
 //     console.log('El usuario y contraseña son correctos');
 // } else {
@@ -94,29 +92,25 @@
 // }
 
 
-//EJERCICIO 55
+//EJERCICIO 55 CON MÉTODO TERNARIO
 // var number1 = 10;
 // var number2 = 15;
-
 // number1>number2 ? console.log('El número 10 es mayor que 15') : console.log('El número 10 es menor que 15');
 
 
 //EJERCICIO 56
 // var number = 13;
-
 // number % 2 === 0 ? console.log('El número es par') : console.log('El número es impar');
 
 
 //EJERCICIO 57
 // var user = 'hannaldi';
 // var password = 'ahrecontrasenia';
-
 // user === 'hannaldi' && password === 'ahrecontraseña' ? console.log('El usuario y contraseña son correctos') : console.log('El usuario o contraseña no son válidos, vuelva a intentar');
 
 
 //EJERCICIO 58
 // var hora = 9;
-
 // if (hora <= 12 && hora > 5) {
 //     console.log('¡Buen día!');
 // } else if (hora > 12 && hora < 20) {
@@ -129,7 +123,6 @@
 //EJERCICIO 59
 // var number1 = '21';
 // var number2 = '18';
-
 // if (number1 > number2) {
 //     console.log('La variable NUMBER1 es más grande que NUMBER2.');
 // } else {
@@ -139,7 +132,6 @@
 
 //EJERCICIO 60
 // var nota = 10;
-
 // if (nota >= 8) {
 //     console.log('Alumna con nota excelente.');
 // } else if (nota < 9 && nota >= 6) {
@@ -154,7 +146,6 @@
 //CON SWITCH
 // var dia = prompt('¿Qué número de la semana es?');
 // var nombreDia = null;
-
 // switch (dia) {
 //     case '1':
 //         nombreDia = 'lunes';
@@ -193,7 +184,6 @@
 //CON IF ANIDADO
 // var dia = prompt('¿Qué número de la semana es?');
 // var nombreDia = null;
-
 // if (dia == 1) {
 //     nombreDia = 'lunes';
 //     console.log('El número ingresado corresponde al día', nombreDia);
@@ -225,7 +215,6 @@
 // var numeroMes = prompt('Ingrese un número del 1 al 12');
 // var nombreMes;
 // var cantidadDias;
-
 // if (numeroMes == 1) {
 //     nombreMes = 'enero';
 //     cantidadDias = '31';
@@ -282,7 +271,6 @@
 
 //EJERCICIO 64
 // var nombre;
-
 // if (nombre) {
 //     console.log('Mi nombre es', nombre);
 // } else {
@@ -317,7 +305,6 @@
 
 //EJERCICIO 68
 // var numeroPar = 0;
-
 // while (numeroPar <= 1000) {
 //     console.log('Número par:', numeroPar);
 //     numeroPar += 2; // también puede ser numeroPar += 1 y le agrego el numeroPar++
@@ -327,7 +314,6 @@
 //EJERCICIO 69
 // var a = 0;
 // var b = 1;
-
 // while (b <= 1000) {
 //     console.log('A:', a, 'MÁS B:', b, 'DA COMO RESULTADO...', a+b);
 //     a = a+b;
@@ -366,7 +352,6 @@
 // var contador = 15;
 // var recorte = '';
 // var star = '***************';
-
 // while (contador > 0) {
 //     recorte = star.slice(0, contador);
 //     console.log(recorte);
@@ -383,19 +368,133 @@
 
 
 //EJERCICIO 75 - te odio fibonacci
-var fibo = 0;
-var a = 0;
-var b = 1;
-var vuelta = 0;
+// var fibo = 0;
+// var a = 0;
+// var b = 1;
+// var vuelta = 0;
+// console.log(a);
+// console.log(b);
+// while (vuelta < 8) {
+//     fibo = a + b;
+//     console.log(fibo);
+//     a = b;
+//     b = fibo;
+//     vuelta++;
+// }
 
-console.log(a);
-console.log(b);
-while (vuelta < 8) {
-    fibo = a + b;
-    console.log(fibo);
-    a = b;
-    b = fibo;
-    vuelta++;
+
+//---------------------------------------------------------
+
+//EJERCICIOS CON FOR (86 al 99)
+
+// EJERCICIO 86 (el 66 pero con for)
+// for (var i = 0; i < 10; i++) {
+//     console.log('Número:', i);
+// }
+
+
+//EJERCICIO 87 (67 pero con for)
+// for (var i = 100; i >= 0; i--) {
+//     console.log('Número:', i);
+// }
+
+
+//EJERCICIO 88 (68 pero con for)
+// for (var i = 0; i <= 1000; i+=2) {
+//     console.log(i);
+// }
+
+
+//EJERCICIO 89 (69 pero con for)
+// var a = 0;
+// for (var b = 1; b <= 1000; b++) { 
+//     a = a+b;
+//     console.log('A:', a, 'MÁS B:', b, 'DA COMO RESULTADO...', a+b);
+// }
+
+
+//EJERCICIO 90 (70 pero con for)
+// var a = 0;
+// for (var b = 1; b <= 1000; b+=2) { 
+//     a = a+b;
+//     console.log(a);
+// }
+
+
+//EJERCICIO 91 (71 pero con for)
+// for (var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+//     var resultado = 9 * multiplicador;
+//     console.log('9 multiplicado por', multiplicador, 'da como resultado:', resultado);
+// }
+
+
+//EJERCICIO 92 (72 pero con for)
+// for (var star = '*'; star.length <= 15; star+='*') {
+//     console.log(star);
+// }
+
+
+//EJERCICIO 93 (73 pero con for)
+// var recorte = '';
+// var star = '***************'
+// for (var i = 15; i > 0; i--) { //'i' es lo mismo que 'contador'
+//     recorte = star.slice(0, i);
+//     console.log(recorte);
+// }
+
+
+//EJERCICIO 94 (74 pero con for)
+// for (var star = '*'; star.length <= 15; star += '**') {
+//     console.log(star);  
+// }
+
+
+//EJERCICIO 95 (75 pero con for)
+// var fibo = 0;
+// var a = 0;
+// var b = 1;
+// console.log(a);
+// console.log(b);
+// for (var vuelta = 0; vuelta < 8; vuelta++) {
+//     fibo = a+b;
+//     console.log(fibo);
+//     a = b;
+//     b = fibo;
+// }
+
+
+//EJERCICIO 96
+// Mostrar en consola los números de 10 en 10 desde el 0 hasta el 10000
+// for (var i = 0; i <= 10000; i+=10) {
+//     console.log(i);
+// }
+
+
+//EJERCICIO 97
+// Mostrar en consola los números desde el 1000 hasta el 0
+// Cada 10 números, los números se tienen que mostrar con el siguiente formato: **numero**
+// for (var i = 1000; i > 0; i--) {
+//     if (i % 10 == 0) {
+//         console.log('**', i, '**');
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+
+//EJERCICIO 98
+// Sumar los números del 0 al 1000
+// Cortar la ejecución si la suma es superior a 100
+// Mostrar el resultado final en consola
+var a = 0;
+for (var b = 1; b <= 1000; b++) {
+    if (a+b <= 100) {
+        console.log('El resultado de A más B da como resultado:', a+b);
+        a = a+b;
+    } else {
+        console.log('El resultado de A más B da como resultado:', a+b, 'por lo tanto, al ser mayor que 100, se corta la ejecución.');
+        break;
+    }
 }
 
 
@@ -405,99 +504,6 @@ while (vuelta < 8) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//------------------------ pausa para repasar en clase ------------------------
-
-//EJERCICIO 69
-// a = a + b
-// b++
-// condicion es b <= 1000
-
-//EJERCICIO 70
-// a = a+b
-// b = b + 2 (o b+=2 it's the same)
-
-//EJERCICIO 71
-// var multiplicador = 1;
-// console.log(9*multiplicador);
-// multiplicador++
-
-//EJERCICIO 72
-// var a = '*';
-
-// while (a.length < 15) {
-//     console.log(a);
-//     a += '*'
-// }
-
-//EJERCICIO 73
-// var contador = 5;
-// var acumulado = '';
-// var estrella = '*****';
-
-// while (contador>0) {
-//     acumulado = estrella.slice(0, contador);
-//     console.log(acumulado);
-//     contador--;
-// }
-
-// var numero = 5;
-// var numeroDos = 5;
-// var f = '*';
-
-// while (numeroDos >= 0) {
-
-//     while (numero >= 0) {
-//         f = f + '*';
-//         numero--;
-//     }
-//     console.log(f);
-    
-//     numero = numeroDos;
-//     numero--;
-// }
-
-
-// var a = '';
-// var base = 5;
-// var resta = 5;
-
-// while (base > 0) {
-//     while (resta > 0) {
-//         a = a + '*';
-//     resta--;
-//     }
-//     console.log(a);
-//     resta = base - 1;
-//     a = '';
-//     base--;
-// }
 
 
 
