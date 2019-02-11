@@ -520,6 +520,109 @@
 // *****
 // *****
 // *****
+// var star = '*****';
+// for (var i=0; i < 5; i++) {
+//     console.log(star);
+//     document.write(star, '<br>');
+// }
+
+
+//EJERCICIO 101
+// Mostrar en consola el siguiente dibujo de un cuadrado hueco:
+// *****
+// *   *
+// *   *
+// *   *
+// *****
+// var star = '*****';
+// var spaceStar = '*aaa*';
+
+// MANERA FÁCIL
+// for (i = 0; i < 5; i++) {
+//     if (i === 0) {
+//         console.log(star);
+//     } else if (i <= 3) {
+//         console.log(spaceStar);
+//     } else {
+//         console.log(star);
+//     }
+// }
+
+// MANERA DIFÍCIL
+// for (i = 0; i < 5; i++) { //el for de afuera marca la cantidad de veces que todo el ciclo se repite, en este caso son 5 vueltas
+//     if (i > 0 && i < 4) { // SI 'i' es MAYOR que 0 y MENOR que 4 (todo esto ya sabiendo en qué líneas se van a repetir los asteriscos con espacio)
+//         for (i=0; i<3; i++) { // segundo ciclo, menor que 3 porque se va a repetir desde 0, 1 y 2 (3 líneas en total), 3 vueltas
+//             document.write(spaceStar, '<br>'); // imprimimos las 3 líneas de asteriscos con espacios
+//         }
+//     } else { // si nada de todo eso se cumple, imprimimos las otras dos, tanto al comienzo como al final
+//         document.write(star, '<br>');
+//     }
+// }
+
+
+
+
+//EJERCICIO 102
+//Mostrar en consola el siguiente dibujo de un tablero de ajedrez:
+// * * * * * * * *
+//  * * * * * * *
+// * * * * * * * *
+//  * * * * * * *
+// * * * * * * * *
+//  * * * * * * *
+// * * * * * * * *
+//  * * * * * * *
+// var ocho = '* * * * * * * *';
+// var siete = ' * * * * * * * ';
+// for (i = 0; i < 8; i++) {
+//     if (i%2 == 0) {
+//         console.log(ocho);
+//     } else {
+//         console.log(siete);
+//     }
+// } 
+
+
+//EJERCICIO 103
+//Mostrar en consola el siguiente dibujo de un diamante:
+// *
+// ***
+// *****
+// *******
+// *********
+// *******
+// *****
+// ***
+// *
+// var star = '*';
+// var starReverse = '*********'
+// var recorte = '';
+// var contador = 7;
+// for (i = 0; i < 9; i++) {
+//     if (i >= 0 && i < 5) {
+//         console.log(star);
+//         star += '**';
+//     } else {
+//         recorte = starReverse.slice(0, contador);
+//         console.log(recorte);
+//         contador-=2;
+//     }
+//  }   
+    
+    
+//EJERCICIO 104
+// Partiendo del siguiente código, realizar la suma de todos los números pares que hay entre el valor guardado en la variable 'n' 
+// y el valor guardado en 'm' (incluyéndolo).
+var n = 10;    
+var m = 26;
+var resultado = 0;
+
+for (var n = 10; n <= m; n+=2) {
+    resultado = n;
+    n + n;
+}
+console.log(resultado);
+
 
 
 
