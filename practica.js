@@ -474,7 +474,7 @@
 // Mostrar en consola los números desde el 1000 hasta el 0
 // Cada 10 números, los números se tienen que mostrar con el siguiente formato: **numero**
 // for (var i = 1000; i > 0; i--) {
-//     if (i % 10 == 0) {
+//     if (i != 1000 && i % 10 == 0) {
 //         console.log('**', i, '**');
 //     } else {
 //         console.log(i);
@@ -486,16 +486,46 @@
 // Sumar los números del 0 al 1000
 // Cortar la ejecución si la suma es superior a 100
 // Mostrar el resultado final en consola
-var a = 0;
-for (var b = 1; b <= 1000; b++) {
-    if (a+b <= 100) {
-        console.log('El resultado de A más B da como resultado:', a+b);
-        a = a+b;
-    } else {
-        console.log('El resultado de A más B da como resultado:', a+b, 'por lo tanto, al ser mayor que 100, se corta la ejecución.');
-        break;
-    }
-}
+// var a = 0;
+// for (var b = 1; b <= 1000; b++) {
+//     if (a+b <= 100) {
+//         console.log('El resultado de A más B da como resultado:', a+b);
+//         a = a+b;
+//     } else {
+//         console.log('El resultado de A más B da como resultado:', a+b, 'por lo tanto, al ser mayor que 100, se corta la ejecución.');
+//         break;
+//     }
+// }
+
+
+//EJERCICIO 99
+// Sumar los números pares del 0 al 10000
+// Cortar la ejecución al encontrar 10 números pares
+// Mostrar en consola el resultado de los números hasta el momento del corte
+// var a = 0;
+// for (var b = 0; b <= 10000; b+=2) {
+//     if (b < 20) {
+//         console.log('El resultado de A más B da como resultado:', a+b);
+//         a = a+b;
+//     } else {
+//         break;
+//     }
+// } console.log('La ejecución se corta tras haber encontrado 10 números pares.');
+
+
+//EJERCICIO 100
+// Mostrar en consola el siguiente dibujo de un cuadro lleno:
+// *****
+// *****
+// *****
+// *****
+// *****
+
+
+
+
+
+
 
 
 
