@@ -610,18 +610,16 @@
 //  }   
     
     
-//EJERCICIO 104
+//EJERCICIO 104 damn you 
 // Partiendo del siguiente código, realizar la suma de todos los números pares que hay entre el valor guardado en la variable 'n' 
 // y el valor guardado en 'm' (incluyéndolo).
-var n = 10;    
-var m = 26;
-var resultado = 0;
+// var n = 10;    
+// var m = 26;
+// var resultado = 0;
 
-for (var n = 10; n <= m; n+=2) {
-    resultado = n;
-    n + n;
-}
-console.log(resultado);
+// for (var n = 10; n <= m; n+=2) {
+//     resultado = n + resultado;
+// } console.log('El resultado de todos los valores que adopta N, sumados entre sí, dan un total de:', resultado);
 
 
 
