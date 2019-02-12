@@ -36,9 +36,6 @@
 
 
 
-
-
-
 //ESTRUCTURAS DE CONTROL
 //EJERCICIO 49
 // var number1 = 10;
@@ -385,6 +382,106 @@
 
 //---------------------------------------------------------
 
+//EJERCICIOS CON DO WHILE (76 al 85)
+
+//EJERCICIO 76 (66 con do while)
+// var number = 0;
+// do {
+//     console.log('Número:', number);
+//     number++;
+// } while (number <= 10);
+
+
+//EJERCICIO 77 (67 con do while)
+// var number = 100;
+// do {
+//     console.log('Número:', number);
+//     number--
+// } while (number >= 0);
+
+
+//EJERCICIO 78 (68 con do while)
+// var number = 0;
+// do {
+//     console.log('Número par:', number);
+//     number+=2;
+// } while (number<=1000);
+
+
+//EJERCICIO 79 (69 con do while)
+// var a = 0;
+// var b = 1;
+// do {
+//     console.log('La suma de A,', a, 'más B,', b, 'da como resultado:', a+b);
+//     a = a+b;
+//     b++;
+// } while (b <= 1000);
+
+
+//EJERCICIO 80 (70 con do while)
+// var a = 0;
+// var b = 1;
+// do {
+//     console.log('La suma de A,', a, 'más B,', b, 'da como resultado:', a+b);
+//     a = a+b;
+//     b += 2;
+// } while (b <= 1000);
+
+
+//EJERCICIO 81 (71 con do while)
+// var multiplicador = 1;
+// do {
+//     console.log('El número 9 por', multiplicador, 'da como resultado:', 9*multiplicador);
+//     multiplicador++;
+// } while (multiplicador <= 10);
+
+
+//EJERCICIO 82 (72 con do while)
+// var star = '*';
+// do {
+//     console.log(star);
+//     star += '*';
+// } while (star.length <= 15);
+
+
+//EJERCICIO 83 (73 con do while)
+// var star = '***************';
+// var recorte = '';
+// var contador = 15;
+// do {
+//     recorte = star.slice(0, contador);
+//     console.log(recorte);
+//     contador--;
+// } while (contador > 0);
+
+
+//EJERCICIO 84 (74 con do while)
+// var star = '*';
+// do {
+//     console.log(star);
+//     star += '**'
+// } while (star.length <= 15);
+
+
+//EJERCICIO 85 (fibo con do while)
+// var a = 0;
+// var b = 1;
+// var fibo;
+// var secuencia = 0;
+// console.log(a);
+// console.log(b);
+// do {
+//     fibo = a+b;
+//     console.log(fibo);
+//     a = b;
+//     b = fibo;
+//     secuencia++
+// } while (secuencia < 8);
+
+
+
+//---------------------------------------------------------
+
 //EJERCICIOS CON FOR (86 al 99)
 
 // EJERCICIO 86 (el 66 pero con for)
@@ -625,8 +722,19 @@
 
 
 // EJERCICIO DE MALE:
+// con un for y googleando algún método, pedirle que me imprima todos los nombres con la primer letra en mayúscula...
+
 // var alumnas = ['Maria', 'esther', 'consuelo', 'Barbara', 'Luisana', 'pancracia', 'luzbelita', 'Jimena'];
-// con un for y googleando algún método, pedirle que me imprima todos los nombres con la primer letra en mayúscula
+// var iniciales = '';
+// var nombres = '';
+
+// for (var i = 0; i < alumnas.length; i++) {
+//     iniciales = alumnas[i].slice(0,1);
+//     iniciales = iniciales.toUpperCase();
+//     nombres = alumnas[i].slice(1);
+//     console.log(iniciales+nombres);
+// } 
+
 
 
 
