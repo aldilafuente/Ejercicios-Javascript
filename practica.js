@@ -624,6 +624,9 @@
 
 
 
+// EJERCICIO DE MALE:
+// var alumnas = ['Maria', 'esther', 'consuelo', 'Barbara', 'Luisana', 'pancracia', 'luzbelita', 'Jimena'];
+// con un for y googleando algún método, pedirle que me imprima todos los nombres con la primer letra en mayúscula
 
 
 
