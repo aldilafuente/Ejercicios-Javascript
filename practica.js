@@ -705,8 +705,8 @@
 //         contador-=2;
 //     }
 //  }   
-    
-    
+
+
 //EJERCICIO 104 damn you 
 // Partiendo del siguiente código, realizar la suma de todos los números pares que hay entre el valor guardado en la variable 'n' 
 // y el valor guardado en 'm' (incluyéndolo).
@@ -736,15 +736,75 @@
 // } 
 
 
+//------------------------------------------------------
+
+//EJERCICIOS CON ARRAYS
+
+//EJERCICIO 02
+// var bandas = ['Megadeth',
+// 'Slipknot',
+// 'Avenged Sevenfold',
+// 'The Lonely Island',
+// 'Trivium',
+// 'In Flames',
+// 'Ghost',
+// 'Mudvayne',
+// 'Killswitch Engage',
+// 'System of a Down'];
+// var primera = bandas[0];
+// var tercera = bandas[2];
+// var sexta = bandas[5];
+
+// console.log('La banda en primer lugar es:', primera);
+// console.log('La banda en tercer lugar es:', tercera);
+// console.log('La banda en sexto lugar es:', sexta);
 
 
 
+//EJERCICIO 04
+// var datos = [27, true, 'La edad de la persona es: '];
+// if (datos[1] == true) {
+//     console.log(datos[2]+datos[0]);
+// } else {
+//     console.log('Algo estás haciendo mal');
+// }
 
 
 
+// EJERCICIO 08
+// Declarar una variable etiquetasHtml con varios de los nombres de las etiquetas de HTML que ya conocés
+// Mostrar en consola el nombre de la 2da etiqueta del array en mayúsculas
+// Mostrar en consola el nombre de la 5ta etiqueta del array en minúsculas
+// Mostrar en consola la cantidad de etiquetas guardadas en el array
+
+// var etiquetasHtml = ['<div>', '<header>', '<p>', '<h1>', '<img>'];
+// console.log(etiquetasHtml[1].toUpperCase());
+// console.log(etiquetasHtml[4].toLowerCase());
+// console.log(etiquetasHtml.length);
 
 
 
+// EJERCICIO 10
+// Teniendo dos arrays de canciones, comparar sus longitudes y mostrar en pantalla “La playlist de Nirvana tiene más canciones” 
+// si el array playlistNirvana tiene más canciones, o “La playlist de Foo Fighters tiene más canciones” 
+// si el array playlistFoo tiene más elementos.
+// var playlistNirvana = ['Smells Like Teen Spirit', 'Come As You Are', 'Heart-Shaped Box', 'Lithium'];
+// var playlistFoo = ['Everlong', 'The Pretender', 'Learn to Fly'];
+
+// if (playlistNirvana > playlistFoo) {
+//     console.log('La playlist de Nirvana tiene más canciones que la de los Foo Fighters.');
+// } else {
+//     console.log('La playlist de los Foo tiene más canciones que la de Nirvana.');
+// }
+
+
+//EJERCICIO 14
+// Eliminar el primer elemento, y agregarlo al final del array.
+// Mostrar el resultado final
+
+var numeros = [6, 1, 2, 3, 4, 5];
+
+numeros.shift();
 
 
 
