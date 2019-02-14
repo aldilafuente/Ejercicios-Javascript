@@ -134,8 +134,40 @@
 // console.log(concreteAndGold);
 
 
-//EJERCICIO 14
+// EJERCICIO 14
 // var numeros = [6, 1, 2, 3, 4, 5];
 // numeros.shift();
 // numeros.push(6);
 // console.log(numeros);
+
+
+// EJERCICIO 15
+// var numeros = [6, 2, 3, 4, 5, 1];
+// var primerNumero = numeros.shift();;
+// var ultimoNumero = numeros.pop();;
+// numeros.push(primerNumero);
+// numeros.unshift(ultimoNumero);
+// console.log(numeros);
+
+
+// EJERCICIO 16
+// var playlist = ['Smells Like Teen Spirit', 'Come As You Are', 'Heart-Shaped Box', 'Lithium'];
+// var playlistEscuchada = ['School'];
+// playlistEscuchada.push(playlist.shift());
+// console.log(playlist);
+// console.log(playlistEscuchada);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
