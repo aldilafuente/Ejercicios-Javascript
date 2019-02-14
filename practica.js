@@ -28,7 +28,6 @@
 // var pi = parseFloat(piString);
 // var constante = parseInt(constanteString);
 // var resultado = pi + constante;
-
 // console.log(resultado);
 // console.log('45.14 es el resultado de sumar las variables', pi.toString(), 'y', constante.toString());
 
@@ -504,30 +503,38 @@
 
 //EJERCICIO 89 (69 pero con for)
 // var a = 0;
-// for (var b = 1; b <= 1000; b++) { 
+// var b = 1;
+// for (var i = 0; i < 1000; i++) { 
+//     console.log('A:', a, 'más B:', b, 'da como resultado...', a+b);
 //     a = a+b;
-//     console.log('A:', a, 'MÁS B:', b, 'DA COMO RESULTADO...', a+b);
+//     b++;
 // }
 
 
 //EJERCICIO 90 (70 pero con for)
 // var a = 0;
-// for (var b = 1; b <= 1000; b+=2) { 
+// var b = 1;
+// for (var i = 0; i < 1000; i++) { 
+//     console.log('A:', a, 'más B:', b, 'da como resultado...', a+b);
 //     a = a+b;
-//     console.log(a);
+//     b+=2;
 // }
 
 
 //EJERCICIO 91 (71 pero con for)
-// for (var multiplicador = 1; multiplicador <= 10; multiplicador++) {
-//     var resultado = 9 * multiplicador;
-//     console.log('9 multiplicado por', multiplicador, 'da como resultado:', resultado);
+// var multiplicador = 1;
+// var numero = 9;
+// for (var i=0; i < 10; i++) {
+//     console.log('El número', numero, 'multiplicado por', multiplicador, 'da como resultado:', numero*multiplicador);
+//     multiplicador++;
 // }
 
 
 //EJERCICIO 92 (72 pero con for)
-// for (var star = '*'; star.length <= 15; star+='*') {
+// var star = '*';
+// for (var i = 0; i < 15; i++) {
 //     console.log(star);
+//     star += '*';
 // }
 
 
@@ -541,8 +548,10 @@
 
 
 //EJERCICIO 94 (74 pero con for)
-// for (var star = '*'; star.length <= 15; star += '**') {
-//     console.log(star);  
+// var star = '*';
+// for (var i = 0; i < 8; i ++) {
+//     console.log(star);
+//     star += '**';  
 // }
 
 
@@ -552,7 +561,7 @@
 // var b = 1;
 // console.log(a);
 // console.log(b);
-// for (var vuelta = 0; vuelta < 8; vuelta++) {
+// for (var i = 0; i < 8; i++) {
 //     fibo = a+b;
 //     console.log(fibo);
 //     a = b;
@@ -584,10 +593,12 @@
 // Cortar la ejecución si la suma es superior a 100
 // Mostrar el resultado final en consola
 // var a = 0;
-// for (var b = 1; b <= 1000; b++) {
+// var b = 1;
+// for (var i = 0; i <= 1000; i++) {
 //     if (a+b <= 100) {
 //         console.log('El resultado de A más B da como resultado:', a+b);
 //         a = a+b;
+//         b++;
 //     } else {
 //         console.log('El resultado de A más B da como resultado:', a+b, 'por lo tanto, al ser mayor que 100, se corta la ejecución.');
 //         break;
@@ -600,10 +611,12 @@
 // Cortar la ejecución al encontrar 10 números pares
 // Mostrar en consola el resultado de los números hasta el momento del corte
 // var a = 0;
-// for (var b = 0; b <= 10000; b+=2) {
+// var b = 0;
+// for (var i = 0; i < 10000; i++) {
 //     if (b < 20) {
 //         console.log('El resultado de A más B da como resultado:', a+b);
 //         a = a+b;
+//         b += 2;
 //     } else {
 //         break;
 //     }
@@ -635,7 +648,7 @@
 // var spaceStar = '*aaa*';
 
 // MANERA FÁCIL
-// for (i = 0; i < 5; i++) {
+// for (var i = 0; i < 5; i++) {
 //     if (i === 0) {
 //         console.log(star);
 //     } else if (i <= 3) {
@@ -646,8 +659,8 @@
 // }
 
 // MANERA DIFÍCIL
-// for (i = 0; i < 5; i++) { //el for de afuera marca la cantidad de veces que todo el ciclo se repite, en este caso son 5 vueltas
-//     if (i > 0 && i < 4) { // SI 'i' es MAYOR que 0 y MENOR que 4 (todo esto ya sabiendo en qué líneas se van a repetir los asteriscos con espacio)
+// for (var i = 0; i < 5; i++) { //el for de afuera marca la cantidad de veces que todo el ciclo se repite, en este caso son 5 vueltas
+//     if (i > 0 && i < 4) { // SI 'i' es MAYOR que 0 y MENOR que 4 (todo esto sabiendo en qué líneas se van a repetir los asteriscos con espacio)
 //         for (i=0; i<3; i++) { // segundo ciclo, menor que 3 porque se va a repetir desde 0, 1 y 2 (3 líneas en total), 3 vueltas
 //             document.write(spaceStar, '<br>'); // imprimimos las 3 líneas de asteriscos con espacios
 //         }
@@ -671,7 +684,7 @@
 //  * * * * * * *
 // var ocho = '* * * * * * * *';
 // var siete = ' * * * * * * * ';
-// for (i = 0; i < 8; i++) {
+// for (var i = 0; i < 8; i++) {
 //     if (i%2 == 0) {
 //         console.log(ocho);
 //     } else {
@@ -695,7 +708,7 @@
 // var starReverse = '*********'
 // var recorte = '';
 // var contador = 7;
-// for (i = 0; i < 9; i++) {
+// for (var i = 0; i < 9; i++) {
 //     if (i >= 0 && i < 5) {
 //         console.log(star);
 //         star += '**';
@@ -713,12 +726,10 @@
 // var n = 10;    
 // var m = 26;
 // var resultado = 0;
-
-// for (var n = 10; n <= m; n+=2) {
-//     resultado = n + resultado;
+// for (var i=0; i < 9; i++) {
+//     resultado = n+resultado;
+//     n+=2;
 // } console.log('El resultado de todos los valores que adopta N, sumados entre sí, dan un total de:', resultado);
-
-
 
 
 // EJERCICIO DE MALE:
@@ -737,78 +748,6 @@
 
 
 //------------------------------------------------------
-
-//EJERCICIOS CON ARRAYS
-
-//EJERCICIO 02
-// var bandas = ['Megadeth',
-// 'Slipknot',
-// 'Avenged Sevenfold',
-// 'The Lonely Island',
-// 'Trivium',
-// 'In Flames',
-// 'Ghost',
-// 'Mudvayne',
-// 'Killswitch Engage',
-// 'System of a Down'];
-// var primera = bandas[0];
-// var tercera = bandas[2];
-// var sexta = bandas[5];
-
-// console.log('La banda en primer lugar es:', primera);
-// console.log('La banda en tercer lugar es:', tercera);
-// console.log('La banda en sexto lugar es:', sexta);
-
-
-
-//EJERCICIO 04
-// var datos = [27, true, 'La edad de la persona es: '];
-// if (datos[1] == true) {
-//     console.log(datos[2]+datos[0]);
-// } else {
-//     console.log('Algo estás haciendo mal');
-// }
-
-
-
-// EJERCICIO 08
-// Declarar una variable etiquetasHtml con varios de los nombres de las etiquetas de HTML que ya conocés
-// Mostrar en consola el nombre de la 2da etiqueta del array en mayúsculas
-// Mostrar en consola el nombre de la 5ta etiqueta del array en minúsculas
-// Mostrar en consola la cantidad de etiquetas guardadas en el array
-
-// var etiquetasHtml = ['<div>', '<header>', '<p>', '<h1>', '<img>'];
-// console.log(etiquetasHtml[1].toUpperCase());
-// console.log(etiquetasHtml[4].toLowerCase());
-// console.log(etiquetasHtml.length);
-
-
-
-// EJERCICIO 10
-// Teniendo dos arrays de canciones, comparar sus longitudes y mostrar en pantalla “La playlist de Nirvana tiene más canciones” 
-// si el array playlistNirvana tiene más canciones, o “La playlist de Foo Fighters tiene más canciones” 
-// si el array playlistFoo tiene más elementos.
-// var playlistNirvana = ['Smells Like Teen Spirit', 'Come As You Are', 'Heart-Shaped Box', 'Lithium'];
-// var playlistFoo = ['Everlong', 'The Pretender', 'Learn to Fly'];
-
-// if (playlistNirvana > playlistFoo) {
-//     console.log('La playlist de Nirvana tiene más canciones que la de los Foo Fighters.');
-// } else {
-//     console.log('La playlist de los Foo tiene más canciones que la de Nirvana.');
-// }
-
-
-//EJERCICIO 14
-// Eliminar el primer elemento, y agregarlo al final del array.
-// Mostrar el resultado final
-
-var numeros = [6, 1, 2, 3, 4, 5];
-
-numeros.shift();
-
-
-
-
 
 
 
